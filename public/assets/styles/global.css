@@ -1,0 +1,88 @@
+/*---------------------------
+| Fonts
+---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&display=swap');
+
+/*---------------------------
+| Foundational
+---------------------------*/
+html, body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body {
+    overflow-y: scroll;
+}
+
+body.modal-open {
+    position: fixed;
+    top: 0px; right: 0px; bottom: 0px; left: 0px;
+    z-index: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px 0px 20px;
+    color: #014444;
+}
+
+h1, h2 { font-weight: 700; }
+h3, h4 { font-weight: 500; }
+h5, h6 { font-weight: 200; }
+
+h1 { font-size: 40px; }
+h2 { font-size: 30px; }
+h3 { font-size: 20px; }
+h4 { font-size: 16px; }
+h5 { font-size: 12px; }
+h6 { font-size: 11px; }
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.inset {
+    padding: 0px 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Main .inset {
+    min-height: 500px;
+    padding-top: 50px;
+}
+
+nav.sublinks {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0px;
+}
+
+nav.sublinks a {
+    margin-right: 5px;
+    display: block;
+    line-height: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #027272;
+}
+
+nav.sublinks a:hover,
+nav.sublinks a.active {
+    background-color: #014444;
+}
