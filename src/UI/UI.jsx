@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const UI = () => {
     return (
         <UIStyled className='UI'>
-            <h1>Web Starter Project</h1>
+            <h1>Final Project</h1>
             <div className="student-name">
                 Mitch Gohman
             </div>
