@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const Swap = () => {
     return (
         <SwapStyled>
+            Hello
             <img src='/assets/img/swapper/sunAndMoon/sun.png' />
         </SwapStyled>
     )
