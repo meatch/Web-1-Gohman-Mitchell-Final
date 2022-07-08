@@ -9,7 +9,7 @@ const UI = () => {
         <UIStyled className='UI'>
             <h1>Final Project</h1>
             <div className="student-name">
-                Mitch Gohman
+                Mitch Gohman S4 Complete
             </div>
 
             <SwapList />
