@@ -1,15 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { swapperData } from 'UI/common/data/swapperData.js';
+
 import Swap from './Swap.jsx';
 
 const SwapList = () => {
     return (
         <SwapListStyled className='SwapList'>
             SwapList
-            <Swap />
-            <Swap />
-            <Swap />
+            {
+                swapperData.map((swapData, idx) => {
+                    return <Swap key={ idx } swapData={ swapData } />
+                })
+            }
+
         </SwapListStyled>
     );
 }
