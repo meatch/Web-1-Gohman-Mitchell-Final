@@ -26,6 +26,10 @@ const Essays = () => {
                 <p>My Answer 3 will go here.</p>
             </Essay>
 
+            <Essay q='Q5: Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
+                <p>My Answer 3 will go here.</p>
+            </Essay>
+
         </EssaysStyled>
     );
 }
