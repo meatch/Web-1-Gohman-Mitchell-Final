@@ -14,7 +14,6 @@ const Header = () => {
 
     return (
         <HeaderStyled className='Header'>
-            Header
             {
                 (media.mdUp) ? <MediumLargeView /> : <SmallView />
             }
