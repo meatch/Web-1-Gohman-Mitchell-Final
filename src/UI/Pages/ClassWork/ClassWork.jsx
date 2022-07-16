@@ -12,7 +12,6 @@ const ClassWork = () => {
                 <NavLink to='/class/swapper'>Swapper</NavLink>
             </nav>
 
-
             <Outlet />
 
         </ClassWorkStyled>
@@ -22,5 +21,7 @@ const ClassWork = () => {
 export default ClassWork;
 
 const ClassWorkStyled = styled.div`
-
+    nav.sublinks a {
+        background-color: maroon;
+    }
 `;

@@ -1,21 +1,34 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import MainMenu from './MainMenu.jsx';
+// Scripts
+import { useMediaQuery } from 'UI/common/useMediaQuery.js';
+
+// Components
+import MediumLargeView from './MediumLargeView/MediumLargeView.jsx';
+import SmallView from './SmallView/SmallView.jsx';
 
 const Header = () => {
+
+    const { media } = useMediaQuery();
+
     return (
         <HeaderStyled className='Header'>
             Header
-
-            <MainMenu />
+            {
+                (media.mdUp) ? <MediumLargeView /> : <SmallView />
+            }
         </HeaderStyled>
     );
 }
 
 export default Header;
 
-const HeaderStyled = styled.div`
+const HeaderStyled = styled.header`
     background-color: #014444;
     color: white;
+
+    h2 {
+        color: white;
+    }
 `;

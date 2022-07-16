@@ -11,6 +11,6 @@ const Main = ({children}) => {
 
 export default Main;
 
-const MainStyled = styled.div`
+const MainStyled = styled.main`
 
 `;
