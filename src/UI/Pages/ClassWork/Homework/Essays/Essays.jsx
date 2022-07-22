@@ -32,7 +32,20 @@ const Essays = () => {
             </Essay>
 
             <Essay q='Q5: Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
-                <p>My Answer 3 will go here.</p>
+                <p><b>Site Relative:</b> Linking relative to the root of our app. Typically to a resource that will always persist in the same location.</p>
+                <p><b>Document Relative:</b> Local, self-contained links within same folder. Making them portable. Always start from the document you are in.</p>
+                <p><b>Absolute Paths:</b> Fully resolved URL `https://domain.com/path/to/specific/file`</p>
+            </Essay>
+
+            <Essay q='Q6: What is the difference between jpg, gif, png and svg images?'>
+                <p><b>JPG:</b> Joint Photographic Experts Group: Raster/Bitmap: Photography - images with continuous tone. Proprietary compression.</p>
+                <p><b>GIF:</b> Graphic Interchange Format: Bitmap/Raster. Indexed to max at 256. Animated Gif. Icons, logos. graphs. Transparency.</p>
+                <p><b>PNG:</b> Portable Network Graphic: Raster/Bitmap. Meant to replace JPG and Gif, best of both worlds. Supports Alpha Transparency. 8-bit = 256, </p>
+                <p><b>SVG:</b> Scaleable Vector Graphic: Lossless, scales up. Icons, logos. graphs</p>
+            </Essay>
+
+            <Essay q='Q7: Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
+                <p>My Answer will go here.</p>
             </Essay>
 
         </EssaysStyled>

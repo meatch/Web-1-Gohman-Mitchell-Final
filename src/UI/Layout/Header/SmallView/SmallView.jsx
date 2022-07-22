@@ -40,6 +40,5 @@ const SmallViewStyled = styled.div`
         .SiteLogo {
             max-width: 300px;
         }
-
     }
 `;
