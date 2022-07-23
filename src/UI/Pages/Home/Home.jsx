@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const Home = () => {
     return (
-        <HomeStyled className='Home'>
-            Home
+        <HomeStyled className='Home inset'>
+            <h1>Home</h1>
         </HomeStyled>
     );
 }
