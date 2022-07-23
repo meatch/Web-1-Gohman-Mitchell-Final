@@ -2,7 +2,7 @@ export const tabbedData = [
     {
         image: '/assets/img/tabbed/tabbed-assets/Alex-Esqueda-Box-Jump.jpg',
         title: 'About',
-        text: '<p>Join a community of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey  to fit your lifestyle.</p>',
+        text: '<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey  to fit your lifestyle.</p>',
     },
     {
         image: '/assets/img/tabbed/tabbed-assets/Tire-Flip.jpg',
